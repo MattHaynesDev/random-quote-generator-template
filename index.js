@@ -9,7 +9,7 @@ function randomQuote() {
 
 function randomImageFilePath() {
   const randomNumber = Math.floor(Math.random() * 10) + 1
-  return `url(./assets/images/Cat${randomNumber}.png)`
+  return `url(./assets/images/Dog_${randomNumber}.jpeg)`
 }
 
 function randomColour() {
